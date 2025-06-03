@@ -1,11 +1,10 @@
 services:
   - type: web
-    name: yvix-assignment-portal
+    name: webb-app
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
     envVars:
       - key: PYTHON_VERSION
-        value: 3.9.0
-      - key: SECRET_KEY
-        generateValue: true 
+        value: 3.11.0
+    plan: free 
