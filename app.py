@@ -23,8 +23,8 @@ app.secret_key = os.getenv('SECRET_KEY', 'dev-secret-key')
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max upload size
 
 # Initialize Supabase client with proper URL format
-supabase_url = 'https://cijnocuczxxuuffuhgkh.supabase.co'
-supabase_key = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNpam5vY3Vjenh4dXVmZnVoZ2toIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDg4OTE2NDcsImV4cCI6MjA2NDQ2NzY0N30.wyNah3PCmrn7-cY8qAFiBph-pXDuwrmfdtXALUimD5Q'
+supabase_url = 'https://rsquvjyzomaqtogxfetb.supabase.co'
+supabase_key = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJzcXV2anl6b21hcXRvZ3hmZXRiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDg5NDY2MjcsImV4cCI6MjA2NDUyMjYyN30.6mfPnySk1-1e9_6z4kSAZApjCKS8nqwbGiYV6nXVjgU'
 supabase: Client = create_client(supabase_url, supabase_key)
 
 # Allowed file extensions

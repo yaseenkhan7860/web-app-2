@@ -1,8 +1,8 @@
 from supabase import create_client
 
 # Initialize Supabase client with your URL and key
-supabase_url = 'https://cijnocuczxxuuffuhgkh.supabase.co'
-supabase_key = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNpam5vY3Vjenh4dXVmZnVoZ2toIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDg4OTE2NDcsImV4cCI6MjA2NDQ2NzY0N30.wyNah3PCmrn7-cY8qAFiBph-pXDuwrmfdtXALUimD5Q'
+supabase_url = 'https://rsquvjyzomaqtogxfetb.supabase.co'
+supabase_key = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJzcXV2anl6b21hcXRvZ3hmZXRiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDg5NDY2MjcsImV4cCI6MjA2NDUyMjYyN30.6mfPnySk1-1e9_6z4kSAZApjCKS8nqwbGiYV6nXVjgU'
 supabase = create_client(supabase_url, supabase_key)
 
 def check_table(table_name):
